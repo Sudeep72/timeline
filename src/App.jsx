@@ -1,15 +1,11 @@
-import { TracingBeamDemo }  from "./sections/Tracing"
-import TimelineDemo from "./sections/Time"
+import TimelineDemo from "./sections/Time";
+import JoinUsCard from "./sections/Join";
 
 function App() {
   return (
-    <div className="text-green-600">App
-    <div className="bg-black">
-    <TracingBeamDemo />
-    </div>
-    <div className="bg-black">
+    <div>
     <TimelineDemo />
-    </div>
+    <JoinUsCard />
     </div>
   )
 }
